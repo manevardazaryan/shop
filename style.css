@@ -1,0 +1,144 @@
+body{
+	box-sizing: border-box;
+	font-family: 'Mitr', sans-serif;
+}
+.header_title{
+	color:#8a1621;
+}
+.header_title:hover{
+	color:#140929;
+}
+.header_p{
+	font-size: 1.4vw;
+}
+.main_h3{
+	font-size:3.5vw;
+	color:#8a1621;
+}
+.main_span{
+	font-size:2vw;
+	color:#140929;
+}
+.grey_container{
+	background: #EFEFEF;
+}
+.red_container{
+	background: #8a1621;
+}
+@media (max-width: 576px) { 
+	.header_btn{
+		font-size: 0.7em;
+	}
+	.header_title{
+		font-size: 1em;
+	}
+	.header_h2{
+		font-size: 1.3em;
+	}
+	.account_drp{
+		font-size: 0.8em;
+	}
+	.header_opt{
+		font-size: 0.7em;
+	}
+	.header_select{
+		font-size: 0.8em;
+		width: 10em;
+	}
+	.header_drp_btn{
+		font-size: 0.8em;
+	}
+	.h_main_body, .h_main_body2{
+		font-size:1.1em;
+	}
+	.h_main_body1{
+		font-size:2em;
+	}
+}
+.alert_span{
+	font-size:3vw;
+	color:#8a1621;	
+}
+@media (min-width: 577px) and (max-width: 768px){ 
+	.header_title{
+		font-size: 1.3em;
+	}
+	.header_btn{
+		font-size: 1em;
+	}
+	.header_h2{
+		font-size: 2.2em;
+	}
+	.header_opt{
+		font-size: 0.7em;
+	}
+	.account_drp{
+		font-size: 1em;
+	}
+	.footer_link{
+		font-size: 1.3em;
+	}
+	.h_main_body, .h_main_body2{
+		font-size:1.8em;
+	}
+	.h_main_body1{
+		font-size:2.5em;
+	}
+}
+@media (min-width: 769px) and (max-width: 992px){ 
+	.header_btn{
+		font-size: 1.2em;
+	}
+	.header_h2{
+		font-size: 3em;
+	}
+	.footer_link{
+		font-size: 1.4em;
+	}
+	.h_main_body, .h_main_body2{
+		font-size:1.5em;
+	}
+	.h_main_body1{
+		font-size:1.8em;
+	}
+}
+@media (min-width: 993px) and (max-width: 1200px){ 
+	.header_btn{
+		font-size: 1.5em;
+	}
+	.header_h2{
+		font-size: 3.5em;
+	}
+	.header_opt{
+		font-size: 0.7em;
+	}
+	.account_drp{
+		font-size: 1em;
+	}
+	.footer_link{
+		font-size: 1.5em;
+	}
+	.h_main_body{
+		font-size:1em;
+	}
+	.h_main_body1, .h_main_body2{
+		font-size:2.1em;
+	}
+	.header_drp_div{
+		width: 11em;
+	}
+}
+@media (min-width: 1201px){ 
+	.header_btn{
+		font-size: 1.6em;
+	}
+	.footer_link{
+		font-size: 1.6em;
+	}
+	.h_main_body{
+		font-size:1.5em;
+	}
+	.h_main_body1, .h_main_body2{
+		font-size:2.8em;
+	}
+}
