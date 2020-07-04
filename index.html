@@ -19,22 +19,28 @@
             <div class = "d-none d-md-block col-md-2 col-lg-3">
               <span class ="lead text-dark">Welcome to our store</span>
             </div>
-            <div class = "col-6 col-md-2 d-flex justify-content-end">
-              <select class ="custom-select rounded-0 border-dark header_select">
-                <option selected class= "header_opt">AM</option>
-                <option value="ru" class= "header_opt">RU</option>
-                <option value="en" class= "header_opt">EN</option>
-              </select>
+            <div class = "col-6 col-md-2">
+              <form class="d-flex justify-content-end">
+                <select class ="custom-select border-0 header_select bg-transparent rounded-0">
+                  <option selected class= "header_opt">AM</option>
+                  <option value="ru" class= "header_opt">RU</option>
+                  <option value="en" class= "header_opt">EN</option>
+                </select>
+              </form>
             </div>
-            <div class = "col-6 col-md-2 text-right text-md-center d-flex">
-              <select class ="custom-select rounded-0  border border-dark header_select">
-                <option selected class ="header_opt">AMD</option>
-                <option value="euro" class ="header_opt">EUR</option>
-                <option value="dollar" class ="header_opt">USD</option>
-              </select>
+            <div class = "col-6 col-md-2">
+              <form class="text-right text-md-center d-flex">
+                <select class ="custom-select border-0 header_select bg-transparent rounded-0">
+                  <option selected class ="header_opt">AMD</option>
+                  <option value="euro" class ="header_opt">EUR</option>
+                  <option value="dollar" class ="header_opt">USD</option>
+                </select>
+              </form>
             </div>
             <div class = "d-none d-md-block col-md-3 col-lg-2">
-              <button type="button" class="btn  btn-outline-dark my-2 my-sm-0 rounded-0 w-100 bg-white text-dark">Wishlist <span class="badge badge-dark">5</span></button>
+              <form>
+                <button type="button" class="btn  btn-outline-transparent my-2 my-sm-0 w-100 bg-transparent text-dark text-right rounded-0">Wishlist <span class="badge badge-dark">5</span></button>
+              </form>
             </div>
           </div>
         </div>
@@ -46,13 +52,13 @@
           </div>
           <div class= "col-md-7 d-none d-md-block">
             <form class="form-inline text-right d-flex justify-content-end">
-              <input class="form-control mr-sm-2 rounded-0 w-75 border border-dark lead text-center" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-dark my-2 my-sm-0 rounded-0 lead" type="submit">Search</button>
+              <input class="form-control mr-sm-2 rounded-0 w-75 border lead text-center" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-light my-2 my-sm-0 rounded-0 lead" type="submit">Search</button>
             </form>
           </div>
           <div class="col-6 col-md-3 col-lg-2 text-right">
             <div class="dropdown">
-              <button class="btn btn-outline-dark dropdown-toggle rounded-0 lead w-100 header_drp_btn" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <button class="btn btn-outline-transparent border-0 dropdown-toggle lead w-100 header_drp_btn text-right" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 My Account
               </button>
               <div class="dropdown-menu rounded-0 header_drp_div" aria-labelledby="dropdownMenu2">
@@ -150,7 +156,7 @@
 
 
     <main>
-      <div class="container alert alert-secondary font-weight-bold text-center bg-white mt-3 mt-lg-5 " role="alert">
+      <div class="container-fluid alert alert-light font-weight-bold text-center mt-3 mt-lg-5 grey_container" role="alert">
         <span class="alert_span"><sup>*</sup>25% SALE</span>
       </div>      
       <div class="container pt-lg-5 d-none d-lg-block px-0">
@@ -269,6 +275,8 @@
         </div>
       </div>
     </main>
+
+
     <footer>
       <div class="container-fluid grey_container">
         <div class="container text-center d-flex align-items-center d-md-block">
@@ -358,8 +366,8 @@
                 <label for="exampleInputPassword1">Password</label>
                 <input type="password" class="form-control" id="exampleInputPassword1">
               </div>
-              <button type="submit" class="btn btn-primary">LOGIN</button>
-              <button class="btn btn-primary" type="button" data-toggle="modal" data-dismiss="modal" data-target="#registermodal">REGISTER</button>
+              <input type="submit" class="btn btn-primary" value="LOGIN"></input>
+              <input class="btn btn-primary" type="button" data-toggle="modal" data-dismiss="modal" data-target="#registermodal" value="REGISTER"></input>
             </form>
           </div>
         </div>
@@ -377,29 +385,29 @@
           </div>
           <div class="modal-body">
             <form>
-        <div class="form">
-          <div class="mb-3">
-            <label for="validationDefault01">First name</label>
-            <input type="text" class="form-control" id="validationDefault01" required>
-          </div>
-          <div class="mb-3">
-            <label for="validationDefault02">Last name</label>
-            <input type="text" class="form-control" id="validationDefault02" required>
-          </div>
-          <div class="mb-3">
-            <label for="validationDefault02">Email</label>
-            <input type="email" class="form-control" id="validationDefault03" required>
-          </div>
-          <div class="mb-3">
-            <label for="validationDefault02">Password</label>
-            <input type="password" class="form-control" id="validationDefault04" required>
-          </div>
-          <div class="mb-3">
-            <label for="validationDefault02">Confirm Password</label>
-            <input type="password" class="form-control" id="validationDefault05" required>
-          </div>
-        </div>
-        <button class="btn btn-primary" type="submit">REGISTER NOW</button>
+              <div class="form">
+                <div class="mb-3">
+                  <label for="validationDefault01">First name</label>
+                  <input type="text" class="form-control" id="validationDefault01" required>
+                </div>
+                <div class="mb-3">
+                  <label for="validationDefault02">Last name</label>
+                  <input type="text" class="form-control" id="validationDefault02" required>
+                </div>
+                <div class="mb-3">
+                  <label for="validationDefault02">Email</label>
+                  <input type="email" class="form-control" id="validationDefault03" required>
+                </div>
+                <div class="mb-3">
+                  <label for="validationDefault02">Password</label>
+                  <input type="password" class="form-control" id="validationDefault04" required>
+                </div>
+                <div class="mb-3">
+                  <label for="validationDefault02">Confirm Password</label>
+                  <input type="password" class="form-control" id="validationDefault05" required>
+                </div>
+              </div>
+              <input class="btn btn-primary" type="submit" value="REGISTER NOW"></input>
           </form>
           </div>
         </div>

@@ -43,7 +43,6 @@ body{
 	}
 	.header_select{
 		font-size: 0.8em;
-		width: 10em;
 	}
 	.header_drp_btn{
 		font-size: 0.8em;
@@ -100,6 +99,15 @@ body{
 	}
 	.h_main_body1{
 		font-size:1.8em;
+	}
+	.header_title{
+		font-size: 1em;
+	}
+	.header_drp_div{
+		width: 11em;
+	}
+	.account_drp{
+		font-size: 1em;
 	}
 }
 @media (min-width: 993px) and (max-width: 1200px){ 
