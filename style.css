@@ -25,6 +25,9 @@ body{
 .red_container{
 	background: #8a1621;
 }
+.shop_select{
+	width: 13em;
+}
 @media (max-width: 576px) { 
 	.header_btn{
 		font-size: 0.7em;
@@ -55,8 +58,7 @@ body{
 	}
 }
 .alert_span{
-	font-size:3vw;
-	color:#8a1621;	
+	font-size:3vw;	
 }
 @media (min-width: 577px) and (max-width: 768px){ 
 	.header_title{
