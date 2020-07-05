@@ -12,7 +12,6 @@ body{
 	font-size: 1.4vw;
 }
 .main_h3{
-	font-size:3.5vw;
 	color:#8a1621;
 }
 .main_span{
@@ -27,6 +26,16 @@ body{
 }
 .shop_select{
 	width: 13em;
+}
+.main_alert{
+	background-image: url("https://img4.goodfon.ru/original/2560x1024/b/c4/gigi-hadid-dzhidzhi-khadid-model-blondinka-krasotka-sidit-na.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: 25%;
+	height: 30vh;
+}
+.text_red{
+	color:#8a1621;
 }
 @media (max-width: 576px) { 
 	.header_btn{
@@ -56,9 +65,19 @@ body{
 	.h_main_body1{
 		font-size:2em;
 	}
-}
-.alert_span{
-	font-size:3vw;	
+	.alert_span{
+		font-size:1.5em;	
+	}
+	.categories_h3{
+		font-size:2.2em;
+	}
+	.sp_text{
+		font-size: 1em;
+	}
+	.product_h6{
+		font-size: 1em;
+	}
+		
 }
 @media (min-width: 577px) and (max-width: 768px){ 
 	.header_title{
@@ -83,6 +102,12 @@ body{
 		font-size:1.8em;
 	}
 	.h_main_body1{
+		font-size:2.5em;
+	}
+	.alert_span{
+		font-size:2.5em;	
+	}
+	.categories_h3{
 		font-size:2.5em;
 	}
 }
@@ -111,6 +136,18 @@ body{
 	.account_drp{
 		font-size: 1em;
 	}
+	.alert_span{
+		font-size:3em;	
+	}
+	.main_h3{
+		font-size:3em;
+	}
+	.categories_h3{
+		font-size:3em;
+	}
+	.product_h6{
+		font-size: 1.5em;
+	}
 }
 @media (min-width: 993px) and (max-width: 1200px){ 
 	.header_btn{
@@ -137,6 +174,18 @@ body{
 	.header_drp_div{
 		width: 11em;
 	}
+	.alert_span{
+		font-size:3em;	
+	}
+	.main_h3{
+		font-size:4em;
+	}
+	.categories_h3{
+		font-size:3em;
+	}
+	.product_h6{
+		font-size: 2em;
+	}
 }
 @media (min-width: 1201px){ 
 	.header_btn{
@@ -150,5 +199,17 @@ body{
 	}
 	.h_main_body1, .h_main_body2{
 		font-size:2.8em;
+	}
+	.alert_span{
+		font-size:4.5em;	
+	}
+	.main_h3{
+		font-size:5em;
+	}
+	.categories_h3{
+		font-size:3.9em;
+	}
+	.product_h6{
+		font-size:2.2em;
 	}
 }
