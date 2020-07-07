@@ -27,13 +27,6 @@ body{
 .shop_select{
 	width: 13em;
 }
-.main_alert{
-	background-image: url("https://img4.goodfon.ru/original/2560x1024/b/c4/gigi-hadid-dzhidzhi-khadid-model-blondinka-krasotka-sidit-na.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position-y: 25%;
-	height: 30vh;
-}
 .text_red{
 	color:#8a1621;
 }
@@ -66,7 +59,7 @@ body{
 		font-size:2em;
 	}
 	.alert_span{
-		font-size:1.5em;	
+		font-size:1.4em;	
 	}
 	.categories_h3{
 		font-size:2.2em;
@@ -201,7 +194,7 @@ body{
 		font-size:2.8em;
 	}
 	.alert_span{
-		font-size:4.5em;	
+		font-size:5.3em;	
 	}
 	.main_h3{
 		font-size:5em;
