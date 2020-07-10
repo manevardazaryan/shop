@@ -30,6 +30,23 @@ body{
 .text_red{
 	color:#8a1621;
 }
+.picture_img{
+	max-width: 100%;
+}
+.red{
+	background-color: #8a1621;
+}
+.red_border{
+	border-top:1px solid #101212;
+}
+.final_text{
+	color:white;
+	text-shadow: 6px 6px silver;
+	text-decoration: underline;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-150%);		
+}
 @media (max-width: 576px) { 
 	.header_btn{
 		font-size: 0.7em;
@@ -59,7 +76,7 @@ body{
 		font-size:2em;
 	}
 	.alert_span{
-		font-size:1.3em;	
+		font-size:1em;	
 	}
 	.categories_h3{
 		font-size:2.2em;
@@ -70,7 +87,28 @@ body{
 	.product_h6{
 		font-size: 1em;
 	}
-		
+	.shopping_total{
+		font-size: 0.9em;
+	}
+	.shopping_btn{
+		font-size: 0.7em;
+	}
+	.shopping_input{
+		font-size: 0.6em;
+	}
+	.shopping_link{
+		font-size: 0.6em;
+	}
+	.order_text{
+		font-size: 0.7em
+	}
+	.final_text{
+		text-shadow: 1px 1px silver;
+		font-size: 1.5em;
+	}
+	.final_main{
+		height: 25vh;
+	}
 }
 @media (min-width: 577px) and (max-width: 768px){ 
 	.header_title{
@@ -102,6 +140,17 @@ body{
 	}
 	.categories_h3{
 		font-size:2.5em;
+	}
+	.shopping_total{
+		font-size: 0.9em;
+	}
+	.final_text{
+		font-size: 3em;	
+		text-shadow: 1.5px 1.5px silver;
+
+	}
+	.final_main{
+		height: 50vh;
 	}
 }
 @media (min-width: 769px) and (max-width: 992px){ 
@@ -141,6 +190,17 @@ body{
 	.product_h6{
 		font-size: 1.5em;
 	}
+	.shopping_total{
+		font-size: 1.3em;
+	}
+	.final_text{
+		font-size: 4em;
+		text-shadow: 1.8px 1.8px silver;
+
+	}
+	.final_main{
+		height: 50vh;
+	}
 }
 @media (min-width: 993px) and (max-width: 1200px){ 
 	.header_btn{
@@ -179,6 +239,15 @@ body{
 	.product_h6{
 		font-size: 2em;
 	}
+	.shopping_input{
+		font-size: 0.9em;
+	}
+	.final_text{
+		font-size: 5em;
+	}
+	.final_main{
+		height: 100vh;
+	}
 }
 @media (min-width: 1201px){ 
 	.header_btn{
@@ -204,5 +273,23 @@ body{
 	}
 	.product_h6{
 		font-size:2.2em;
+	}
+	.checkout_div{
+		width: 35em;
+	}
+	.checkout_input{
+		height: 3.2em;
+	}
+	.shopping_total{
+		font-size: 1.5em;
+	}
+	.order_text{
+		font-size: 1.4em
+	}
+	.final_text{
+		font-size: 10em;
+	}
+	.final_main{
+		height: 100vh;
 	}
 }
